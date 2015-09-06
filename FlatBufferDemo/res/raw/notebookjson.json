@@ -1,0 +1,24 @@
+{
+  "code" : 200,
+  "status" : "Success",
+  "message" : "Notebook(s) fetched successfully",
+  "notebooks" : [ {
+    "name" : "Update Mind",
+    "notebook_id" : "lh6rd0be086d419a74c65b2a50d13c3cf9ebd",
+    "is_default" : false,
+    "description" : "Random notes",
+    "location" : "Pondicherry",
+    "latitude" : 3.141161161117E12,
+    "longitude" : 2.1111111117E10,
+    "cover_image_id" : "lh6rdf7494e8a54e3439abc1a739526c926d4",
+    "created_time" : "2015-07-08T03:25:55+0530",
+    "modified_time" : "2015-09-03T18:48:05+0530",
+    "last_accessed_time" : "2015-09-04T16:48:18+0530"
+  } ],
+  "page_context" : {
+    "view_type" : "Notebook.Grid",
+    "sort_type" : "Notebook.CustomOrder",
+    "sort_order" : "Asc",
+    "page_limit" : 100
+  }
+}
