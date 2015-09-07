@@ -75,7 +75,7 @@ public class MainActivity extends ActionBarActivity
 
 
 			int name=builder.createString("MYName");
-			int notebook_id=builder.createString("Great Name");
+			int notebookId=builder.createString("Great Name");
 			int description=builder.createString("Great Description");
 			int location=builder.createString("Chennai,India");
 			int coverImageId=builder.createString("Iam CoverImage Id");
@@ -84,7 +84,7 @@ public class MainActivity extends ActionBarActivity
 			int sortType=builder.createString("LastAccessed");
 			int sortOrder=builder.createString("Asc");
 
-			int notebook=Notebook.createNotebook(builder, name, notebook_id, false, description, location,2323, 3232, coverImageId, 3332323, 32, 343434);
+			int notebook=Notebook.createNotebook(builder, name, notebookId, false, description, location,2323, 3232, coverImageId, 3332323, 32, 343434);
 
 			int[] notebooks={notebook};
 			int vec=NotebookList.createNotebooksVector(builder,notebooks);
