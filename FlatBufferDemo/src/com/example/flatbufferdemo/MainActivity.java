@@ -134,11 +134,12 @@ public class MainActivity extends ActionBarActivity
 			URL url = new URL("URL");
 			HttpURLConnection connection=(HttpURLConnection)url.openConnection();
 
-			if(connection.getResponseCode()==200)
+			if(connection.getResponseCode()!=200)
 			{
-				inputStream=connection.getInputStream();
-
+				return null;	
+			
 			}
+			inputStream=connection.getInputStream();
 			outputStream=new ByteArrayOutputStream();
 
 			byte[] buffer=new byte[1024*8];
